@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+@import
+        "../node_modules/vanilla-framework/scss/build",
+        "base",
+        "layout"
+;
+
+@include vanilla;
