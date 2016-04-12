@@ -1,0 +1,37 @@
+
+// Header
+@media only screen and (min-width: 620px) {
+  header.banner {
+    border-bottom: 0;
+  }
+}
+
+.banner .nav-primary ul.nav-list {
+  float: right;
+}
+
+.banner .nav-primary ul.nav-list-item {
+  margin-right: 20px;
+}
+
+.banner .nav-primary ul.nav-list a:link {
+  border: 1px solid #333;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+// Hero row
+.row-hero {
+  background-image: url('../img/hero-image.jpg');
+  background-size: cover;
+  min-height: 400px;
+  text-align: center;
+  margin-top: 0 !important;
+
+  .page-heading {
+    font-size: 5em;
+    text-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    color: $white;
+    padding-top: 130px;
+  }
+}

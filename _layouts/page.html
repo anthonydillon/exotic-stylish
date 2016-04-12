@@ -2,9 +2,13 @@
 layout: default
 ---
 <div class="row-hero">
-  <h1 class="post-title">{{ page.title }}</h1>
+  <div class="inner-wrapper">
+    <h1 class="post-title">{{ page.title }}</h1>
+  </div>
 </div>
 
 <div class="row">
-  {{ content }}
+  <div class="inner-wrapper">
+    {{ content }}
+  </div>
 </div>
