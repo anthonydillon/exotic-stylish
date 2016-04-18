@@ -3,7 +3,7 @@ title: Exotic Stylish
 email: info@exotic-stylish.co.uk
 description: > # this means to ignore newlines until "baseurl:"
   Exotic stylish leathers
-baseurl: ""
+baseurl: "exotic-stylish"
 url: "http://exotic-stylish.com/"
 
 # Build settings
