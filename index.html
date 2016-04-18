@@ -13,7 +13,7 @@ layout: default
       {% for post in site.categories.products %}
         {% if post.url %}
             <li class="product-list__item">
-              <a href="{{ post.url }}" class="product-list__link">
+              <a href="{{ site.baseurl }}{{ post.url }}" class="product-list__link">
                 <img src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}" class="product-list__image" />
                 <h3 class="product-list__name">{{ post.title }}</h3>
                 <p class="product-list__price">&pound;{{ post.price }}</p>
