@@ -8,3 +8,7 @@ url: "http://exotic-stylish.com/"
 
 # Build settings
 markdown: kramdown
+
+scope:
+      path: "products"
+      type: "posts"

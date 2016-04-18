@@ -7,17 +7,20 @@ layout: default
     <h1 class="page-heading">SHOP</h1>
   </div>
 </div>
-
 <div class="row no-border">
-  <ul class="list">
-    {% for product in site.products %}
-      <li>
-        <span class="post-meta">{{ product.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ product.url | prepend: site.baseurl }}">{{ product.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  <div class="inner-wrapper">
+    <ul class="product-list">
+      {% for post in site.categories.products %}
+        {% if post.url %}
+            <li class="product-list__item">
+              <a href="{{ post.url }}" class="product-list__link">
+                <img src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}" class="product-list__image" />
+                <h3 class="product-list__name">{{ post.title }}</h3>
+                <p class="product-list__price">&pound;{{ post.price }}</p>
+              </a>
+            </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
 </div>

@@ -1,23 +1,30 @@
-
+$brand: #963E8D;
+$link-color: #868688;
 // Header
 @media only screen and (min-width: 620px) {
   header.banner {
     border-bottom: 0;
+    background-color: $white;
+    box-shadow: 1px 0 2px rgba(0, 0, 0, .5);
   }
 }
 
 .banner .nav-primary ul.nav-list {
   float: right;
-}
 
-.banner .nav-primary ul.nav-list-item {
-  margin-right: 20px;
-}
+  .nav-list-item {
+    border: 0 !important;
+    position: relative;
+    top: 10px;
 
-.banner .nav-primary ul.nav-list a:link {
-  border: 1px solid #333;
-  border-radius: 4px;
-  background-color: #fff;
+    a {
+      font-weight: 700;
+    }
+
+    a:hover {
+      color: $brand;
+    }
+  }
 }
 
 // Hero row
@@ -34,4 +41,29 @@
     color: $white;
     padding-top: 130px;
   }
+}
+
+.product-list {
+  list-style: none;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.product-list__item {
+  width: 25%;
+  float: left;
+  margin-bottom: 60px;
+}
+
+.product-list__link {
+  margin: 0;
+  margin-bottom: 5px;
+  font-size: 13px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.buy-button {
+  margin-top: 40px;
 }
