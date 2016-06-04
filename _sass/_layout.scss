@@ -5,8 +5,13 @@ $link-color: #868688;
   header.banner {
     border-bottom: 0;
     background-color: $white;
-    box-shadow: 1px 0 2px rgba(0, 0, 0, .5);
+    margin-top: 20px;
   }
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Mono', Helvetica !important;
+  font-weight: normal !important;
 }
 
 .banner .nav-primary ul.nav-list {
@@ -28,21 +33,25 @@ $link-color: #868688;
 }
 
 // Hero row
-.row-hero {
-  background-image: url('../img/ALD_7352.jpg');
-  background-size: cover;
-  background-position: center;
-  min-height: 400px;
+.row-hero,
+footer.global .legal p {
   text-align: center;
-  margin-top: 0 !important;
+  color: #3C8D68;
 
-  .page-heading {
-    font-size: 5em;
-    text-shadow: 0 0 6px rgba(0, 0, 0, .5);
-    color: $white;
-    padding-top: 130px;
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.5em;
   }
 }
+
+.row .inner-wrapper {
+  padding-left: 200px;
+  max-width: 900px;
+}
+
 
 .product-list {
   list-style: none;
@@ -67,4 +76,12 @@ $link-color: #868688;
 
 .buy-button {
   margin-top: 40px;
+}
+
+// Navigation styling
+#nav {
+  width: 200px;
+  position: absolute;
+  left: 0;
+  top: 300px;
 }
