@@ -1,8 +1,9 @@
 ---
+title: Product 6
+date: 2016-04-12 12:41:14 Z
+categories:
+- products
 layout: product
-title:  "Product 6"
-date:   2016-04-12 12:41:14
-categories: products
 image: "/img/ALD_7328.jpg"
 price: 99
 ---

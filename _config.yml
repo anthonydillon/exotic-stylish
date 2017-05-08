@@ -1,14 +1,23 @@
-# Site settings
+---
 title: Exotic Stylish
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  products:
+    title: Products
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 email: info@exotic-stylish.co.uk
-description: > # this means to ignore newlines until "baseurl:"
-  Exotic stylish leathers
+description: 'Exotic stylish leathers
+
+'
 baseurl: "/exotic-stylish"
-url: "http://exotic-stylish.com/"
-
-# Build settings
+url: http://exotic-stylish.com/
 markdown: kramdown
-
 scope:
-      path: "products"
-      type: "posts"
+  path: products
+  type: posts
