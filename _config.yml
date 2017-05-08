@@ -15,7 +15,7 @@ email: info@exotic-stylish.co.uk
 description: 'Exotic stylish leathers
 
 '
-baseurl: "/exotic-stylish"
+baseurl: ""
 url: http://exotic-stylish.com/
 markdown: kramdown
 scope:
