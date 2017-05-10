@@ -8,4 +8,4 @@ price: 99
 layout: product
 ---
 
-This is where the decription of the product will go.
+This is where the description of the product will go.
