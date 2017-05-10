@@ -1,5 +1,5 @@
 ---
-title: About
+title: About Exotic Stylish
 permalink: "/about/"
 layout: page
 ---
