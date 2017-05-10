@@ -13,7 +13,10 @@
         <a href="#nav" class="nav-toggle__link open"></a>
         <a href="#" class="nav-toggle__link close"></a>
       </div>
-      <ul class="nav-list ant">
+      <ul class="nav-list">
+        <li class="nav-list-item">
+          <a href="{{ / | prepend: site.baseurl }}">Home</a>
+        </li>
         {% for page in site.pages %}
           {% if page.title %}
           <li class="nav-list-item">
