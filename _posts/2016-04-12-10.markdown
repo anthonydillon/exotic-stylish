@@ -4,7 +4,7 @@ date: 2016-04-12 12:41:00 Z
 categories:
 - products
 tags:
-- mens-belts
+- Men’s Belts
 image: "/img/ALD_7339.jpg"
 price: 99
 layout: product
