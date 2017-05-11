@@ -3,6 +3,8 @@ title: Orange bag
 date: 2016-04-12 12:41:00 Z
 categories:
 - products
+tags:
+- handbags
 image: "/img/ALD_7319.jpg"
 price: 99
 layout: product
