@@ -6,7 +6,8 @@ layout: default
   <div class="inner-wrapper">
     <ul class="product-list">
       {% for post in site.categories.products %}
-        {% if post.url %}
+        {% for tag in post.tags %}
+          {% if tag == page.title %}
             <li class="product-list__item">
               <a href="{{ site.baseurl }}{{ post.url }}" class="product-list__link">
                 <img src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}" class="product-list__image" />
@@ -14,7 +15,8 @@ layout: default
                 <p class="product-list__price">&pound;{{ post.price }}</p>
               </a>
             </li>
-        {% endif %}
+          {% endif %}
+        {% endfor %}
       {% endfor %}
     </ul>
   </div>
