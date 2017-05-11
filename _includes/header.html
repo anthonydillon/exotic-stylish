@@ -14,11 +14,8 @@
         <a href="#" class="nav-toggle__link close"></a>
       </div>
       <ul class="nav-list">
-        <li class="nav-list-item">
-          <a href="/">Home</a>
-        </li>
         {% for page in site.pages %}
-          {% if page.title %}
+          {% if page.title and page.title != 'home' %}
           <li class="nav-list-item">
             <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           </li>
