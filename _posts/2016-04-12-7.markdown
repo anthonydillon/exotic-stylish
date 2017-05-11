@@ -1,11 +1,13 @@
 ---
 title: Product 7
-date: 2016-04-12 12:41:14 Z
+date: 2016-04-12 12:41:00 Z
 categories:
 - products
-layout: product
+tags:
+- handbags
 image: "/img/ALD_7331.jpg"
 price: 99
+layout: product
 ---
 
 This is where the decription of the product will go.
