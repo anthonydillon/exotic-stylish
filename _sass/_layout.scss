@@ -22,20 +22,19 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 .banner .nav-primary ul.nav-list {
-  float: right;
-  padding: 20px;
+  float: left;
 
   .nav-list-item {
+    background-image: url('/img/green-star.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 20px;
     border: 0 !important;
-    position: relative;
-    top: 10px;
 
     a {
       font-weight: 700;
-    }
-
-    a:hover {
-      color: $brand;
+      text-transform: uppercase;
+      color: $brand-green;
     }
   }
 }
