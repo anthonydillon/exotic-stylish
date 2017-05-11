@@ -1,11 +1,13 @@
 ---
 title: Product 10
-date: 2016-04-12 12:41:14 Z
+date: 2016-04-12 12:41:00 Z
 categories:
 - products
-layout: product
+tags:
+- mens-belts
 image: "/img/ALD_7339.jpg"
 price: 99
+layout: product
 ---
 
 This is where the decription of the product will go.
